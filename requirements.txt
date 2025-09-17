@@ -50,7 +50,6 @@ click-didyoumean==0.3.1
 click-plugins==1.1.1
 click-repl==0.3.0
 clyent==1.2.2
-colorama==0.4.6
 comm==0.2.2
 
 conda-repo-cli==1.0.75
@@ -273,7 +272,6 @@ Twisted==24.3.0
 txaio==23.1.1
 typing-inspect==0.9.0
 typing_extensions==4.11.0
-tzdata==2024.1
 
 uri-template==1.3.0
 uritemplate==4.1.1
