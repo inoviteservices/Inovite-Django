@@ -27,8 +27,8 @@ SECRET_KEY = "django-insecure-8)(l9(oaylk#kc^qpxwthgxsgq6742oulzy^ez5asu!p5t!94m
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-# ALLOWED_HOSTS = ['*']
-ALLOWED_HOSTS = ["inovite-django.onrender.com", "localhost", "127.0.0.1"]
+ALLOWED_HOSTS = ['*']
+# ALLOWED_HOSTS = ["inovite-django.onrender.com", "localhost", "127.0.0.1"]
 
 
 # Application definition
