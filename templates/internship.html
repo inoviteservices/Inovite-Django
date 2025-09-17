@@ -1,0 +1,70 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block 'main' %}
+
+<div class="stg-container">
+
+<section class="backlight-bottom">
+    <!-- Section Title -->
+    <div class="stg-row bringer-section-title">
+        <div class="stg-col-8 stg-offset-2">
+            <div class="align-center">
+                <h2 data-appear="fade-up" data-unload="fade-up">Apply for Internship</h2>
+                <p class="bringer-large-text" data-appear="fade-up" data-delay="100" data-unload="fade-up">
+                    Kickstart your career with real-world experience! Fill in the details below to apply for our internship program.
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- Application Form -->
+    <div class="bringer-grid-2cols bringer-tp-grid-1col" data-appear="fade-up" data-delay="200" data-unload="fade-up">
+        <div class="bringer-block" style="grid-column: span 2;"> <!-- Full width form -->
+            <form>
+                <div class="row g-3">
+                    <!-- Name -->
+                    <div class="col-md-6">
+                        <label for="name" class="form-label">Full Name</label>
+                        <input type="text" id="name" name="name" class="form-control" placeholder="Enter your full name" required>
+                    </div>
+                    <!-- Email -->
+                    <div class="col-md-6">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" id="email" name="email" class="form-control" placeholder="you@example.com" required>
+                    </div>
+                    <!-- College Name -->
+                    <div class="col-md-6">
+                        <label for="college" class="form-label">College Name</label>
+                        <input type="text" id="college" name="college" class="form-control" placeholder="Your college name" required>
+                    </div>
+                    <!-- Completion Year -->
+                    <div class="col-md-6">
+                        <label for="year" class="form-label">Completion Year</label>
+                        <input type="number" id="year" name="year" class="form-control" placeholder="e.g. 2026" required>
+                    </div>
+                    <!-- Course Name -->
+                    <div class="col-md-6">
+                        <label for="course" class="form-label">Course Name</label>
+                        <input type="text" id="course" name="course" class="form-control" placeholder="e.g. B.Tech in CSE" required>
+                    </div>
+                    <!-- Resume Link -->
+                    <div class="col-md-6">
+                        <label for="resume" class="form-label">Resume Link</label>
+                        <input type="url" id="resume" name="resume" class="form-control" placeholder="Paste Google Drive or other link" required>
+                    </div>
+                    <!-- Skills -->
+                    <div class="col-12">
+                        <label for="skills" class="form-label">Skills (separate with commas)</label>
+                        <input type="text" id="skills" name="skills" class="form-control" placeholder="Python, Java, HTML, CSS" required>
+                    </div>
+                    <!-- Submit Button --><br>
+                    <div class="col-12 text-center mt-4">
+                        <button type="submit" class="btn btn-primary px-4 py-2">Apply Now</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+</div>
+
+{% endblock 'main' %}

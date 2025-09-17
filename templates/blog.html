@@ -1,0 +1,77 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block 'main' %}
+<div class="stg-container">
+  <section class="backlight-both">
+    <!-- Section Title -->
+    <div class="stg-row stg-bottom-gap-l">
+      <div class="stg-col-7">
+        <h2 data-split-appear="fade-up" data-unload="fade-up">
+          Here’s how we turn thoughts into thriving trends:
+        </h2>
+      </div>
+      <div class="stg-col-5"></div>
+    </div>
+
+    <!-- Blog Row 1 -->
+    <div class="stg-row stg-bottom-gap stg-valign-middle stg-m-bottom-gap-l" data-unload="fade-left">
+      <!-- Blog Image -->
+      <div class="stg-col-6 stg-tp-col-6" data-appear="fade-right">
+        <div class="bringer-parallax-media">
+          <img src="https://images.pexels.com/photos/3761262/pexels-photo-3761262.jpeg" alt="Blog Title 1" width="960" height="960" />
+        </div>
+      </div>
+
+      <!-- Blog Content -->
+      <div class="stg-col-6 stg-tp-col-6" data-appear="fade-left" data-delay="100">
+        <span class="bringer-label">August 20, 2025</span>
+        <h4>
+          How to Build Stunning Web Apps with Django & React
+        </h4>
+        <p>
+          Discover how to combine Django for backend and React for frontend to build scalable and high-performance applications...
+        </p>
+        <a href="/blog/1" class="bringer-icon-link">
+          <div class="bringer-icon-wrap">
+            <i class="bringer-icon bringer-icon-explore"></i>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <!-- Blog Row 2 -->
+    <div class="stg-row stg-bottom-gap stg-valign-middle stg-m-bottom-gap-l" data-unload="fade-left">
+      <!-- Blog Image -->
+      <div class="stg-col-6 stg-tp-col-6 stg-m-bottom-gap" data-appear="fade-right">
+        <div class="bringer-parallax-media">
+          <img src="https://images.pexels.com/photos/3761262/pexels-photo-3761262.jpeg" alt="Blog Title 2" width="960" height="960" />
+        </div>
+      </div>
+
+      <!-- Blog Content -->
+      <div class="stg-col-6 stg-tp-col-6" data-appear="fade-left" data-delay="100">
+        <span class="bringer-label">August 15, 2025</span>
+        <h4>
+          Top 5 UI/UX Design Principles for Modern Web Apps
+        </h4>
+        <p>
+          A clean and intuitive UI is the key to user engagement. Learn the top design principles that make your web apps stand out...
+        </p>
+        <a href="/blog/2" class="bringer-icon-link">
+          <div class="bringer-icon-wrap">
+            <i class="bringer-icon bringer-icon-explore"></i>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <!-- No Blogs Case -->
+    <!--
+    <p style="text-align: center; padding: 2rem;">
+      No blogs found. Be the first to post something epic! 🚀
+    </p>
+    -->
+  </section>
+</div>
+
+{% endblock 'main' %}
